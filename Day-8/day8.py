@@ -88,6 +88,9 @@ def find_best_tree(array):
     return best
 
 def main():
+    '''
+    Main method to get the solution
+    '''
     data = create_array(input())
     # Solution 1
     sol_1 = count_forest(data)
