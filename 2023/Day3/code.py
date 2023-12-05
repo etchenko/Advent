@@ -14,7 +14,7 @@ def partSum(data, symbols):
     i,j=0,0
     while i < len(data):
         while j < len(data[i]):
-            if re.search("[1-9]",data[i][j]):
+            if re.search("[0-9]",data[i][j]):
                 j2 = j + 1
                 while j2 < len(data[i]) and re.search("[0-9]",data[i][j2]):
                     j2 += 1
